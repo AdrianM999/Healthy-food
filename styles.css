@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fluid {
+    margin-top: 1.5rem;
+}
+
+.navbar-brand {
+    background-color: #70be5b;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+
+.nav-link {
+    color: black;
+    font-size: 1.25rem;
+}
