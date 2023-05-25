@@ -2,25 +2,114 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
+  }
+  
+  .body-firstpage {
     background-image: url(./images/large.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.container-fluid {
+  }
+  
+  /* Navbar */
+  .container-fluid {
     margin-top: 1.5rem;
-}
-
-.navbar-brand {
+  }
+  
+  .navbar-brand {
     background-color: #70be5b;
     font-size: 1.5rem;
     padding: 1.5rem;
-}
-
-.nav-link {
+  }
+  
+  .nav-link {
     color: black;
     font-size: 1.25rem;
-}
+  }
+  
+
+/* Second page*/
+
+a.hometag {
+    transform: rotate(270deg);
+    position: absolute;
+    top: 1.5rem;
+    text-decoration: none;
+    color: #b4a79e;
+    font-size: 2rem;
+  }
+  
+  .secondpage {
+    background-color: #e8dfe0;
+  }
+  
+  .custom-container-fluid {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .jumbotron {
+    background-image: url(./images/png-transparent-smoothie-milk-banana-food-musa-velutina-banana-food-nutrition-computer-wallpaper.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 30vh;
+  }
+  
+  .h1andp {
+    padding: 2.5rem;
+    line-height: 1.5rem;
+  }
+  
+  .display-4 {
+    font-weight: 450;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .lead {
+    font-weight: 450;
+    text-align: center;
+  }
+  
+  .section2 {
+    margin-top: 1rem;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .title {
+    text-align: center;
+    width: 50%;
+    font-weight: 500;
+    box-shadow: 0 10px 6px -6px #777;
+    background-color: #faf6f2;
+  }
+  
+  .btn {
+    background-image: url(./images/final2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1.25rem;
+  }
+  
+  .container-toogle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    max-height: 50vh;
+    overflow-y: auto;
+  }
+  
+  .card-body {
+    width: 50vh;
+    background-color: #fcf2eb;
+  }
+  
+  .content1Toogle {
+    text-align: center;
+  }
